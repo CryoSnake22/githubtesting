@@ -1,0 +1,28 @@
+3:36PM INFO <cmd/root.go:102> Logging to debug.log
+3:36PM INFO <cmd/root.go:104> Running in repo repo=/Users/charlo/dev/githubtesting
+3:36PM INFO <tui/ui.go:930> window size changed width=203 height=57
+3:36PM DEBU <config/parser.go:577> using global config path path=/Users/charlo/.config/gh-dash/config.yml
+3:36PM DEBU <keys/keys.go:243> Rebinding universal keys keys=[]
+3:36PM INFO <tui/ui.go:85> Starting task id="fetching_prs_1_2026-03-18 15:36:44.84858 -0400 EDT m=+0.099692876"
+3:36PM INFO <tui/ui.go:85> Starting task id="fetching_prs_2_2026-03-18 15:36:44.896185 -0400 EDT m=+0.147296835"
+3:36PM INFO <tui/ui.go:85> Starting task id="fetching_prs_3_2026-03-18 15:36:44.945445 -0400 EDT m=+0.196556251"
+3:36PM DEBU <data/commonapi.go:32> Fetching latest version
+3:36PM DEBU <data/prapi.go:523> Fetching PRs query="is:open author:@me" limit=20 endCursor=<nil>
+3:36PM DEBU <data/prapi.go:523> Fetching PRs query="is:open review-requested:@me" limit=20 endCursor=<nil>
+3:36PM DEBU <data/prapi.go:523> Fetching PRs query="is:open involves:@me -author:@me" limit=20 endCursor=<nil>
+3:36PM INFO <data/commonapi.go:37> Successfully fetched latest version version=v4.23.2
+3:36PM INFO <data/prapi.go:528> Successfully fetched PRs count=0
+3:36PM INFO <tui/ui.go:645> Task finished id="fetching_prs_3_2026-03-18 15:36:44.945445 -0400 EDT m=+0.196556251"
+3:36PM INFO <data/prapi.go:528> Successfully fetched PRs count=0
+3:36PM INFO <tui/ui.go:645> Task finished id="fetching_prs_1_2026-03-18 15:36:44.84858 -0400 EDT m=+0.099692876"
+3:36PM INFO <data/prapi.go:528> Successfully fetched PRs count=0
+3:36PM INFO <tui/ui.go:645> Task finished id="fetching_prs_2_2026-03-18 15:36:44.896185 -0400 EDT m=+0.147296835"
+3:36PM INFO <tui/ui.go:179> Key pressed key=l
+3:36PM INFO <tui/ui.go:179> Key pressed key=h
+3:36PM INFO <tui/ui.go:179> Key pressed key=l
+3:36PM INFO <tui/ui.go:179> Key pressed key=h
+3:36PM INFO <tui/ui.go:179> Key pressed key=l
+3:36PM INFO <tui/ui.go:179> Key pressed key=l
+3:36PM INFO <tui/ui.go:179> Key pressed key=h
+3:36PM INFO <tui/ui.go:179> Key pressed key=h
+3:36PM INFO <tui/ui.go:179> Key pressed key=q
